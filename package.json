@@ -70,12 +70,12 @@
     "workbox-webpack-plugin": "5.1.4"
   },
   "scripts": {
-    "start-line1":"cross-env NODE_ENV=development LINE_TYPE=line1 node script/start.js",
-    "start-line2":"cross-env NODE_ENV=development LINE_TYPE=line2 node script/start.js",
-    "build-line1-rd":"cross-env NODE_ENV=development LINE_TYPE=line1 node script/build.js",
-    "build-line2-rd":"cross-env NODE_ENV=development LINE_TYPE=line2 node script/build.js",
-    "build-line1":"cross-env NODE_ENV=production LINE_TYPE=line1 node script/build.js",
-    "build-line2":"cross-env NODE_ENV=production LINE_TYPE=line2 node script/build.js",
+    "start-line1":"cross-env NODE_ENV=development LINE_TYPE=line1 node scripts/start.js",
+    "start-line2":"cross-env NODE_ENV=development LINE_TYPE=line2 node scripts/start.js",
+    "build-line1-rd":"cross-env NODE_ENV=development LINE_TYPE=line1 node scripts/build.js",
+    "build-line2-rd":"cross-env NODE_ENV=development LINE_TYPE=line2 node scripts/build.js",
+    "build-line1":"cross-env NODE_ENV=production LINE_TYPE=line1 node scripts/build.js",
+    "build-line2":"cross-env NODE_ENV=production LINE_TYPE=line2 node scripts/build.js",
     "test": "node scripts/test.js"
   },
   "eslintConfig": {
